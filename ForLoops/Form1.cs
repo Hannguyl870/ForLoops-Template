@@ -66,8 +66,7 @@ namespace ForLoops
                
                 if (i % 4 == 0)
                 {
-                    q5Output.Text += $"{i}";
-                    q5Output.Text += " ";
+                    q5Output.Text += $"{i} ";
                 }
             }
 
@@ -82,6 +81,11 @@ namespace ForLoops
             /// 
             /// Hint: Start off with a string that has 1 "*" in it, then 
             /// in the loop you will add another "*" using +=
+            
+            for(int i = 1; i <=5;i++)
+            {
+                q6Output.Text += 
+            }
         }
     }
 }
